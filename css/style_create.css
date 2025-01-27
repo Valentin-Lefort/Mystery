@@ -13,7 +13,7 @@ header {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     left: 0;
     top: 0;
     width: 100%;
@@ -44,7 +44,7 @@ header {
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
 
@@ -52,4 +52,69 @@ header {
 #wordList p {
     margin: 7px;
     padding: 5px;
+}
+
+.container {
+    width: 1142px;
+    margin: 0 auto;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 50px 0;
+}
+
+.item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+    /*margin: 0 15px 30px;*/
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.item_link {
+    display: block;
+    /*padding: 15px;*/
+    background-color: #f3d7b4;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+.item_link:hover,
+.item_link:hover .item_date {
+    text-decoration: none;
+    color: #FFF;
+}
+.item_link:hover .item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}
+.item_title {
+    min-height: 87px;
+    /*margin: 0 0 25px;*/
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    z-index: 2;
+    position: relative;
+    align-content: center;
+}
+
+.item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: #f9b234;
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
