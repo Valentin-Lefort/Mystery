@@ -1,35 +1,34 @@
-// Objet pour stocker les rooms créées
 let rooms = {};
 
 document.addEventListener("DOMContentLoaded", function () {
   const createRoomForm = document.getElementById("createRoomForm");
-  const roomNameInput = document.getElementById("roomName");
-  const maxPlayersInput = document.getElementById("maxPlayers");
+  // const roomNameInput = document.getElementById("roomName");
+  // const maxPlayersInput = document.getElementById("maxPlayers");
   const usernameInput = document.getElementById("username");
   const messageDiv = document.getElementById("message");
 
   if (
     createRoomForm &&
-    roomNameInput &&
-    maxPlayersInput &&
+    // roomNameInput &&
+    // maxPlayersInput &&
     usernameInput &&
     messageDiv
   ) {
     createRoomForm.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      const roomName = roomNameInput.value;
-      const maxPlayers = maxPlayersInput.value;
+      // const roomName = roomNameInput.value;
+      // const maxPlayers = maxPlayersInput.value;
       const username = usernameInput.value;
 
       // Check if room name already exists
-      for (let roomId in rooms) {
-        if (rooms[roomId].name === roomName) {
-          messageDiv.innerHTML = "Le nom de la partie existe déjà!";
-          messageDiv.style.color = "#ff0000";
-          return;
-        }
-      }
+      // for (let roomId in rooms) {
+      //   if (rooms[roomId].name === roomName) {
+      //     messageDiv.innerHTML = "Le nom de la partie existe déjà!";
+      //     messageDiv.style.color = "#ff0000";
+      //     return;
+      //   }
+      // }
 
       const roomId = Date.now().toString();
 
@@ -41,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       rooms[roomId] = {
-        name: roomName,
-        maxPlayers: maxPlayers,
+        // name: roomName,
+        // maxPlayers: maxPlayers,
         players: [username],
       };
 
@@ -50,7 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
       messageDiv.innerHTML = "Partie créée avec succès!";
       messageDiv.style.color = "#008000";
 
-      updateRoomsList();
+      // Redirection vers la page de la partie créée avec les paramètres
+      window.location.href = `game.html?roomId=${roomId}&username=${encodeURIComponent(username)}`;
     });
   } else {
     console.error("Form or input elements not found in the DOM.");
@@ -66,27 +66,8 @@ function updateRoomsList() {
     let room = rooms[roomId];
     let roomDiv = document.createElement("div");
     roomDiv.innerHTML = `<strong>${room.name}</strong> (Max joueurs: ${room.maxPlayers}, Joueurs: ${room.players.length})
-                         <a href="#" onclick="joinRoom('${roomId}')">Rejoindre</a>`;
+                         <a href="game.html?roomId=${roomId}&username=${encodeURIComponent(prompt("Entrez votre pseudo:") || "JoueurAnonyme")}">Rejoindre</a>`;
     roomsListDiv.appendChild(roomDiv);
-  }
-}
-
-function joinRoom(roomId) {
-  if (rooms[roomId]) {
-    if (rooms[roomId].players.length < rooms[roomId].maxPlayers) {
-      let username = prompt("Entrez votre pseudo:");
-      if (username) {
-        rooms[roomId].players.push(username);
-        updateRoomsList();
-        alert("Vous avez rejoint la partie!");
-      } else {
-        alert("Pseudo non valide.");
-      }
-    } else {
-      alert("Cette partie est pleine.");
-    }
-  } else {
-    alert("Partie non trouvée.");
   }
 }
 

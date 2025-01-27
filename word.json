@@ -1,0 +1,1443 @@
+{
+  "words": [
+    {
+      "theme": {
+        "fr": "Animaux",
+        "en": "Animals"
+      },
+      "color": "rgb(255, 0, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Chien",
+          "en": "Dog"
+        },
+        {
+          "fr": "Chat",
+          "en": "Cat"
+        },
+        {
+          "fr": "Oiseau",
+          "en": "Bird"
+        },
+        {
+          "fr": "Poisson",
+          "en": "Fish"
+        },
+        {
+          "fr": "Serpent",
+          "en": "Snake"
+        },
+        {
+          "fr": "Lapin",
+          "en": "Rabbit"
+        },
+        {
+          "fr": "Souris",
+          "en": "Mouse"
+        },
+        {
+          "fr": "Cheval",
+          "en": "Horse"
+        },
+        {
+          "fr": "Vache",
+          "en": "Cow"
+        },
+        {
+          "fr": "Cochon",
+          "en": "Pig"
+        },
+        {
+          "fr": "Mouton",
+          "en": "Sheep"
+        },
+        {
+          "fr": "Poule",
+          "en": "Hen"
+        },
+        {
+          "fr": "Canard",
+          "en": "Duck"
+        },
+        {
+          "fr": "Abeille",
+          "en": "Bee"
+        },
+        {
+          "fr": "Papillon",
+          "en": "Butterfly"
+        },
+        {
+          "fr": "Coccinelle",
+          "en": "Ladybug"
+        },
+        {
+          "fr": "Fourmi",
+          "en": "Ant"
+        },
+        {
+          "fr": "Araignée",
+          "en": "Spider"
+        },
+        {
+          "fr": "Grenouille",
+          "en": "Frog"
+        },
+        {
+          "fr": "Tortue",
+          "en": "Turtle"
+        },
+        {
+          "fr": "Crocodile",
+          "en": "Crocodile"
+        },
+        {
+          "fr": "Lion",
+          "en": "Lion"
+        },
+        {
+          "fr": "Tigre",
+          "en": "Tiger"
+        },
+        {
+          "fr": "Ours",
+          "en": "Bear"
+        },
+        {
+          "fr": "Singe",
+          "en": "Monkey"
+        },
+        {
+          "fr": "Éléphant",
+          "en": "Elephant"
+        },
+        {
+          "fr": "Girafe",
+          "en": "Giraffe"
+        },
+        {
+          "fr": "Kangourou",
+          "en": "Kangaroo"
+        },
+        {
+          "fr": "Koala",
+          "en": "Koala"
+        },
+        {
+          "fr": "Panda",
+          "en": "Panda"
+        },
+        {
+          "fr": "Dauphin",
+          "en": "Dolphin"
+        },
+        {
+          "fr": "Requin",
+          "en": "Shark"
+        },
+        {
+          "fr": "Baleine",
+          "en": "Whale"
+        },
+        {
+          "fr": "Pingouin",
+          "en": "Penguin"
+        },
+        {
+          "fr": "Phoque",
+          "en": "Seal"
+        },
+        {
+          "fr": "Morse",
+          "en": "Walrus"
+        },
+        {
+          "fr": "Otarie",
+          "en": "Sea Lion"
+        },
+        {
+          "fr": "Loup",
+          "en": "Wolf"
+        },
+        {
+          "fr": "Renard",
+          "en": "Fox"
+        },
+        {
+          "fr": "Écureuil",
+          "en": "Squirrel"
+        },
+        {
+          "fr": "Hérisson",
+          "en": "Hedgehog"
+        },
+        {
+          "fr": "Castor",
+          "en": "Beaver"
+        },
+        {
+          "fr": "Chauve-souris",
+          "en": "Bat"
+        },
+        {
+          "fr": "Lézard",
+          "en": "Lizard"
+        },
+        {
+          "fr": "Caméléon",
+          "en": "Chameleon"
+        },
+        {
+          "fr": "Alligator",
+          "en": "Alligator"
+        },
+        {
+          "fr": "Iguane",
+          "en": "Iguana"
+        },
+        {
+          "fr": "Salamandre",
+          "en": "Salamander"
+        },
+        {
+          "fr": "Truite",
+          "en": "Trout"
+        },
+        {
+          "fr": "Saumon",
+          "en": "Salmon"
+        },
+        {
+          "fr": "Carpe",
+          "en": "Carp"
+        },
+        {
+          "fr": "Brochet",
+          "en": "Pike"
+        },
+        {
+          "fr": "Thon",
+          "en": "Tuna"
+        },
+        {
+          "fr": "Maquereau",
+          "en": "Mackerel"
+        },
+        {
+          "fr": "Sardine",
+          "en": "Sardine"
+        },
+        {
+          "fr": "Anchois",
+          "en": "Anchovy"
+        },
+        {
+          "fr": "Morue",
+          "en": "Cod"
+        },
+        {
+          "fr": "Raie",
+          "en": "Ray"
+        },
+        {
+          "fr": "Orque",
+          "en": "Orca"
+        },
+        {
+          "fr": "Lion de mer",
+          "en": "Sea Lion"
+        },
+        {
+          "fr": "Méduse",
+          "en": "Jellyfish"
+        },
+        {
+          "fr": "Étoile de mer",
+          "en": "Starfish"
+        },
+        {
+          "fr": "Bernard-l'hermite",
+          "en": "Hermit Crab"
+        },
+        {
+          "fr": "Crabe",
+          "en": "Crab"
+        },
+        {
+          "fr": "Homard",
+          "en": "Lobster"
+        },
+        {
+          "fr": "Langouste",
+          "en": "Spiny Lobster"
+        },
+        {
+          "fr": "Crevette",
+          "en": "Shrimp"
+        },
+        {
+          "fr": "Moule",
+          "en": "Mussel"
+        },
+        {
+          "fr": "Huître",
+          "en": "Oyster"
+        },
+        {
+          "fr": "Coquille Saint-Jacques",
+          "en": "Scallop"
+        },
+        {
+          "fr": "Calamar",
+          "en": "Squid"
+        },
+        {
+          "fr": "Poulpe",
+          "en": "Octopus"
+        },
+        {
+          "fr": "Seiche",
+          "en": "Cuttlefish"
+        },
+        {
+          "fr": "Pieuvre",
+          "en": "Octopus"
+        },
+        {
+          "fr": "Concombre de mer",
+          "en": "Sea Cucumber"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Loisirs",
+        "en": "Leisure"
+      },
+      "color": "rgb(255, 128, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Football",
+          "en": "Football"
+        },
+        {
+          "fr": "Basketball",
+          "en": "Basketball"
+        },
+        {
+          "fr": "Tennis",
+          "en": "Tennis"
+        },
+        {
+          "fr": "Golf",
+          "en": "Golf"
+        },
+        {
+          "fr": "Rugby",
+          "en": "Rugby"
+        },
+        {
+          "fr": "Volleyball",
+          "en": "Volleyball"
+        },
+        {
+          "fr": "Handball",
+          "en": "Handball"
+        },
+        {
+          "fr": "Baseball",
+          "en": "Baseball"
+        },
+        {
+          "fr": "Hockey",
+          "en": "Hockey"
+        },
+        {
+          "fr": "Boxe",
+          "en": "Boxing"
+        },
+        {
+          "fr": "Natation",
+          "en": "Swimming"
+        },
+        {
+          "fr": "Athlétisme",
+          "en": "Athletics"
+        },
+        {
+          "fr": "Cyclisme",
+          "en": "Cycling"
+        },
+        {
+          "fr": "Équitation",
+          "en": "Horse Riding"
+        },
+        {
+          "fr": "Escalade",
+          "en": "Climbing"
+        },
+        {
+          "fr": "Ski",
+          "en": "Skiing"
+        },
+        {
+          "fr": "Snowboard",
+          "en": "Snowboarding"
+        },
+        {
+          "fr": "Surf",
+          "en": "Surfing"
+        },
+        {
+          "fr": "Kitesurf",
+          "en": "Kitesurfing"
+        },
+        {
+          "fr": "Planche à voile",
+          "en": "Windsurfing"
+        },
+        {
+          "fr": "Pêche",
+          "en": "Fishing"
+        },
+        {
+          "fr": "Chasse",
+          "en": "Hunting"
+        },
+        {
+          "fr": "Camping",
+          "en": "Camping"
+        },
+        {
+          "fr": "Randonnée",
+          "en": "Hiking"
+        },
+        {
+          "fr": "Course à pied",
+          "en": "Running"
+        },
+        {
+          "fr": "Yoga",
+          "en": "Yoga"
+        },
+        {
+          "fr": "Pilates",
+          "en": "Pilates"
+        },
+        {
+          "fr": "Zumba",
+          "en": "Zumba"
+        },
+        {
+          "fr": "Danse",
+          "en": "Dance"
+        },
+        {
+          "fr": "Musique",
+          "en": "Music"
+        },
+        {
+          "fr": "Cinéma",
+          "en": "Cinema"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Film & Series",
+        "en": "Movie & TV Shows"
+      },
+      "color": "rgb(255, 255, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Harry Potter",
+          "en": "Harry Potter"
+        },
+        {
+          "fr": "Star Wars",
+          "en": "Star Wars"
+        },
+        {
+          "fr": "Indiana Jones",
+          "en": "Indiana Jones"
+        },
+        {
+          "fr": "Jurassic Park",
+          "en": "Jurassic Park"
+        },
+        {
+          "fr": "Pirates des Caraïbes",
+          "en": "Pirates of the Caribbean"
+        },
+        {
+          "fr": "Le Seigneur des Anneaux",
+          "en": "The Lord of the Rings"
+        },
+        {
+          "fr": "Le Hobbit",
+          "en": "The Hobbit"
+        },
+        {
+          "fr": "Avengers",
+          "en": "Avengers"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Couleurs",
+        "en": "Colors"
+      },
+      "color": "rgb(128, 255, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Rouge",
+          "en": "Red"
+        },
+        {
+          "fr": "Orange",
+          "en": "Orange"
+        },
+        {
+          "fr": "Jaune",
+          "en": "Yellow"
+        },
+        {
+          "fr": "Vert",
+          "en": "Green"
+        },
+        {
+          "fr": "Bleu",
+          "en": "Blue"
+        },
+        {
+          "fr": "Violet",
+          "en": "Purple"
+        },
+        {
+          "fr": "Rose",
+          "en": "Pink"
+        },
+        {
+          "fr": "Marron",
+          "en": "Brown"
+        },
+        {
+          "fr": "Gris",
+          "en": "Grey"
+        },
+        {
+          "fr": "Noir",
+          "en": "Black"
+        },
+        {
+          "fr": "Blanc",
+          "en": "White"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Objets",
+        "en": "Objects"
+      },
+      "color": "rgb(0, 255, 255, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Montre à gousset",
+          "en": "Pocket Watch"
+        },
+        {
+          "fr": "Sculpture en verre",
+          "en": "Glass Sculpture"
+        },
+        {
+          "fr": "Sac de couchage",
+          "en": "Sleeping Bag"
+        },
+        {
+          "fr": "Machine à écrire",
+          "en": "Typewriter"
+        },
+        {
+          "fr": "Moulin à poivre",
+          "en": "Pepper Mill"
+        },
+        {
+          "fr": "Canif",
+          "en": "Pocket Knife"
+        },
+        {
+          "fr": "Pendule",
+          "en": "Pendulum"
+        },
+        {
+          "fr": "Aquarium",
+          "en": "Aquarium"
+        },
+        {
+          "fr": "Harmonica",
+          "en": "Harmonica"
+        },
+        {
+          "fr": "Boussole",
+          "en": "Compass"
+        },
+        {
+          "fr": "Manteau de fourrure",
+          "en": "Fur Coat"
+        },
+        {
+          "fr": "Kit de réparation de vélo",
+          "en": "Bike Repair Kit"
+        },
+        {
+          "fr": "Tapis de yoga",
+          "en": "Yoga Mat"
+        },
+        {
+          "fr": "Échiquier",
+          "en": "Chessboard"
+        },
+        {
+          "fr": "Masque de plongée",
+          "en": "Diving Mask"
+        },
+        {
+          "fr": "Lampe de bureau",
+          "en": "Desk Lamp"
+        },
+        {
+          "fr": "Aiguille à tricoter",
+          "en": "Knitting Needle"
+        },
+        {
+          "fr": "Mikado",
+          "en": "Pick-up Sticks"
+        },
+        {
+          "fr": "Presse-ail",
+          "en": "Garlic Press"
+        },
+        {
+          "fr": "Thermomètre",
+          "en": "Thermometer"
+        },
+        {
+          "fr": "Carillon éolien",
+          "en": "Wind Chime"
+        },
+        {
+          "fr": "Livre de recettes",
+          "en": "Cookbook"
+        },
+        {
+          "fr": "Paillasson",
+          "en": "Doormat"
+        },
+        {
+          "fr": "Pistolet à colle",
+          "en": "Glue Gun"
+        },
+        {
+          "fr": "Boîte à musique",
+          "en": "Music Box"
+        },
+        {
+          "fr": "Pinceau d'artiste",
+          "en": "Artist's Brush"
+        },
+        {
+          "fr": "Scie à métaux",
+          "en": "Metal Saw"
+        },
+        {
+          "fr": "Bocal en verre",
+          "en": "Glass Jar"
+        },
+        {
+          "fr": "Tasse à thé",
+          "en": "Teacup"
+        },
+        {
+          "fr": "Lunettes de soleil",
+          "en": "Sunglasses"
+        },
+        {
+          "fr": "Tapis de souris",
+          "en": "Mouse Pad"
+        },
+        {
+          "fr": "Disque vinyle",
+          "en": "Vinyl Record"
+        },
+        {
+          "fr": "Manteau de pluie",
+          "en": "Raincoat"
+        },
+        {
+          "fr": "Pince à épiler",
+          "en": "Tweezers"
+        },
+        {
+          "fr": "Couteau suisse",
+          "en": "Swiss Army Knife"
+        },
+        {
+          "fr": "Filtre à café",
+          "en": "Coffee Filter"
+        },
+        {
+          "fr": "Éponge naturelle",
+          "en": "Natural Sponge"
+        },
+        {
+          "fr": "Bougie parfumée",
+          "en": "Scented Candle"
+        },
+        {
+          "fr": "Sac à dos",
+          "en": "Backpack"
+        },
+        {
+          "fr": "Télécommande",
+          "en": "Remote Control"
+        },
+        {
+          "fr": "Marteau",
+          "en": "Hammer"
+        },
+        {
+          "fr": "Clé à molette",
+          "en": "Adjustable Wrench"
+        },
+        {
+          "fr": "Brosse à dents",
+          "en": "Toothbrush"
+        },
+        {
+          "fr": "Tiroir de rangement",
+          "en": "Storage Drawer"
+        },
+        {
+          "fr": "Corde à sauter",
+          "en": "Jump Rope"
+        },
+        {
+          "fr": "Bouteille thermos",
+          "en": "Thermos Bottle"
+        },
+        {
+          "fr": "Éteignoir à bougie",
+          "en": "Candle Snuffer"
+        },
+        {
+          "fr": "Sac de voyage",
+          "en": "Travel Bag"
+        },
+        {
+          "fr": "Appareil photo instantané",
+          "en": "Instant Camera"
+        },
+        {
+          "fr": "Couvercle de casserole",
+          "en": "Saucepan Lid"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Lieux",
+        "en": "Places"
+      },
+      "color": "rgb(0, 0, 255, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Paris",
+          "en": "Paris"
+        },
+        {
+          "fr": "Londres",
+          "en": "London"
+        },
+        {
+          "fr": "New York",
+          "en": "New York"
+        },
+        {
+          "fr": "Los Angeles",
+          "en": "Los Angeles"
+        },
+        {
+          "fr": "Tokyo",
+          "en": "Tokyo"
+        },
+        {
+          "fr": "Pékin",
+          "en": "Beijing"
+        },
+        {
+          "fr": "Moscou",
+          "en": "Moscow"
+        },
+        {
+          "fr": "Berlin",
+          "en": "Berlin"
+        },
+        {
+          "fr": "Rome",
+          "en": "Rome"
+        },
+        {
+          "fr": "Le Caire",
+          "en": "Cairo"
+        },
+        {
+          "fr": "Sydney",
+          "en": "Sydney"
+        },
+        {
+          "fr": "Rio de Janeiro",
+          "en": "Rio de Janeiro"
+        },
+        {
+          "fr": "Le Cap",
+          "en": "Cape Town"
+        },
+        {
+          "fr": "Montréal",
+          "en": "Montreal"
+        },
+        {
+          "fr": "Toronto",
+          "en": "Toronto"
+        },
+        {
+          "fr": "Vancouver",
+          "en": "Vancouver"
+        },
+        {
+          "fr": "Mexico",
+          "en": "Mexico City"
+        },
+        {
+          "fr": "São Paulo",
+          "en": "São Paulo"
+        },
+        {
+          "fr": "Buenos Aires",
+          "en": "Buenos Aires"
+        },
+        {
+          "fr": "Lima",
+          "en": "Lima"
+        },
+        {
+          "fr": "Santiago",
+          "en": "Santiago"
+        },
+        {
+          "fr": "Bogota",
+          "en": "Bogota"
+        },
+        {
+          "fr": "Caracas",
+          "en": "Caracas"
+        },
+        {
+          "fr": "La Havane",
+          "en": "Havana"
+        },
+        {
+          "fr": "Kingston",
+          "en": "Kingston"
+        },
+        {
+          "fr": "Lagos",
+          "en": "Lagos"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Personnalités Connues",
+        "en": "Famous Personality"
+      },
+      "color": "rgb(255, 0, 255, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Albert Einstein",
+          "en": "Albert Einstein"
+        },
+        {
+          "fr": "Leonardo da Vinci",
+          "en": "Leonardo da Vinci"
+        },
+        {
+          "fr": "Wolfgang Amadeus Mozart",
+          "en": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "fr": "William Shakespeare",
+          "en": "William Shakespeare"
+        },
+        {
+          "fr": "Napoleon Bonaparte",
+          "en": "Napoleon Bonaparte"
+        },
+        {
+          "fr": "Marie Curie",
+          "en": "Marie Curie"
+        },
+        {
+          "fr": "Mahatma Gandhi",
+          "en": "Mahatma Gandhi"
+        },
+        {
+          "fr": "Martin Luther King",
+          "en": "Martin Luther King"
+        },
+        {
+          "fr": "Mother Teresa",
+          "en": "Mother Teresa"
+        },
+        {
+          "fr": "Nelson Mandela",
+          "en": "Nelson Mandela"
+        },
+        {
+          "fr": "Pablo Picasso",
+          "en": "Pablo Picasso"
+        },
+        {
+          "fr": "Vincent van Gogh",
+          "en": "Vincent van Gogh"
+        },
+        {
+          "fr": "Winston Churchill",
+          "en": "Winston Churchill"
+        },
+        {
+          "fr": "Charles de Gaulle",
+          "en": "Charles de Gaulle"
+        },
+        {
+          "fr": "John F. Kennedy",
+          "en": "John F. Kennedy"
+        },
+        {
+          "fr": "Marilyn Monroe",
+          "en": "Marilyn Monroe"
+        },
+        {
+          "fr": "Elvis Presley",
+          "en": "Elvis Presley"
+        },
+        {
+          "fr": "Michael Jackson",
+          "en": "Michael Jackson"
+        },
+        {
+          "fr": "Madonna",
+          "en": "Madonna"
+        },
+        {
+          "fr": "Lady Gaga",
+          "en": "Lady Gaga"
+        },
+        {
+          "fr": "Beyoncé",
+          "en": "Beyoncé"
+        },
+        {
+          "fr": "Rihanna",
+          "en": "Rihanna"
+        },
+        {
+          "fr": "Taylor Swift",
+          "en": "Taylor Swift"
+        },
+        {
+          "fr": "Justin Bieber",
+          "en": "Justin Bieber"
+        },
+        {
+          "fr": "Katy Perry",
+          "en": "Katy Perry"
+        },
+        {
+          "fr": "Adele",
+          "en": "Adele"
+        },
+        {
+          "fr": "Ed Sheeran",
+          "en": "Ed Sheeran"
+        },
+        {
+          "fr": "Bruno Mars",
+          "en": "Bruno Mars"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Livres",
+        "en": "Books"
+      },
+      "color": "rgb(128, 0, 255, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Le Petit Prince",
+          "en": "The Little Prince"
+        },
+        {
+          "fr": "Harry Potter",
+          "en": "Harry Potter"
+        },
+        {
+          "fr": "Le Seigneur des Anneaux",
+          "en": "The Lord of the Rings"
+        },
+        {
+          "fr": "Le Comte de Monte-Cristo",
+          "en": "The Count of Monte Cristo"
+        },
+        {
+          "fr": "Les Trois Mousquetaires",
+          "en": "The Three Musketeers"
+        },
+        {
+          "fr": "Vingt mille lieues sous les mers",
+          "en": "Twenty Thousand Leagues Under the Sea"
+        },
+        {
+          "fr": "Le Tour du monde en quatre-vingts jours",
+          "en": "Around the World in Eighty Days"
+        },
+        {
+          "fr": "Les Aventures de Tom Sawyer",
+          "en": "The Adventures of Tom Sawyer"
+        },
+        {
+          "fr": "Les Aventures de Huckleberry Finn",
+          "en": "The Adventures of Huckleberry Finn"
+        },
+        {
+          "fr": "Alice au pays des merveilles",
+          "en": "Alice in Wonderland"
+        },
+        {
+          "fr": "Le Magicien d'Oz",
+          "en": "The Wizard of Oz"
+        },
+        {
+          "fr": "Peter Pan",
+          "en": "Peter Pan"
+        },
+        {
+          "fr": "Le Livre de la jungle",
+          "en": "The Jungle Book"
+        },
+        {
+          "fr": "Les Contes des mille et une nuits",
+          "en": "One Thousand and One Nights"
+        },
+        {
+          "fr": "Don Quichotte",
+          "en": "Don Quixote"
+        },
+        {
+          "fr": "Les Fleurs du mal",
+          "en": "The Flowers of Evil"
+        },
+        {
+          "fr": "Les Misérables",
+          "en": "Les Misérables"
+        },
+        {
+          "fr": "Madame Bovary",
+          "en": "Madame Bovary"
+        },
+        {
+          "fr": "Germinal",
+          "en": "Germinal"
+        },
+        {
+          "fr": "Le Rouge et le Noir",
+          "en": "The Red and the Black"
+        },
+        {
+          "fr": "Les Liaisons dangereuses",
+          "en": "Dangerous Liaisons"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Verbes",
+        "en": "Verbs"
+      },
+      "color": "rgb(111, 117, 18, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Manger",
+          "en": "Eat"
+        },
+        {
+          "fr": "Boire",
+          "en": "Drink"
+        },
+        {
+          "fr": "Dormir",
+          "en": "Sleep"
+        },
+        {
+          "fr": "Courir",
+          "en": "Run"
+        },
+        {
+          "fr": "Marcher",
+          "en": "Walk"
+        },
+        {
+          "fr": "Sauter",
+          "en": "Jump"
+        },
+        {
+          "fr": "Danser",
+          "en": "Dance"
+        },
+        {
+          "fr": "Chanter",
+          "en": "Sing"
+        },
+        {
+          "fr": "Jouer",
+          "en": "Play"
+        },
+        {
+          "fr": "Lire",
+          "en": "Read"
+        },
+        {
+          "fr": "Écrire",
+          "en": "Write"
+        },
+        {
+          "fr": "Dessiner",
+          "en": "Draw"
+        },
+        {
+          "fr": "Peindre",
+          "en": "Paint"
+        },
+        {
+          "fr": "Regarder",
+          "en": "Watch"
+        },
+        {
+          "fr": "Écouter",
+          "en": "Listen"
+        },
+        {
+          "fr": "Parler",
+          "en": "Speak"
+        },
+        {
+          "fr": "Entendre",
+          "en": "Hear"
+        },
+        {
+          "fr": "Sentir",
+          "en": "Smell"
+        },
+        {
+          "fr": "Goûter",
+          "en": "Taste"
+        },
+        {
+          "fr": "Toucher",
+          "en": "Touch"
+        },
+        {
+          "fr": "Sentir",
+          "en": "Feel"
+        },
+        {
+          "fr": "Voir",
+          "en": "See"
+        },
+        {
+          "fr": "Regarder",
+          "en": "Look"
+        },
+        {
+          "fr": "Observer",
+          "en": "Observe"
+        },
+        {
+          "fr": "Comprendre",
+          "en": "Understand"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Matières",
+        "en": "Materials"
+      },
+      "color": "rgb(51, 0, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Bois",
+          "en": "Wood"
+        },
+        {
+          "fr": "Pierre",
+          "en": "Stone"
+        },
+        {
+          "fr": "Métal",
+          "en": "Metal"
+        },
+        {
+          "fr": "Verre",
+          "en": "Glass"
+        },
+        {
+          "fr": "Plastique",
+          "en": "Plastic"
+        },
+        {
+          "fr": "Cuir",
+          "en": "Leather"
+        },
+        {
+          "fr": "Tissu",
+          "en": "Fabric"
+        },
+        {
+          "fr": "Papier",
+          "en": "Paper"
+        },
+        {
+          "fr": "Carton",
+          "en": "Cardboard"
+        },
+        {
+          "fr": "Céramique",
+          "en": "Ceramic"
+        },
+        {
+          "fr": "Porcelaine",
+          "en": "Porcelain"
+        },
+        {
+          "fr": "Argile",
+          "en": "Clay"
+        },
+        {
+          "fr": "Coton",
+          "en": "Cotton"
+        },
+        {
+          "fr": "Soie",
+          "en": "Silk"
+        },
+        {
+          "fr": "Laine",
+          "en": "Wool"
+        },
+        {
+          "fr": "Acier",
+          "en": "Steel"
+        },
+        {
+          "fr": "Fer",
+          "en": "Iron"
+        },
+        {
+          "fr": "Cuivre",
+          "en": "Copper"
+        },
+        {
+          "fr": "Or",
+          "en": "Gold"
+        },
+        {
+          "fr": "Argent",
+          "en": "Silver"
+        },
+        {
+          "fr": "Bronze",
+          "en": "Bronze"
+        },
+        {
+          "fr": "Aluminium",
+          "en": "Aluminium"
+        },
+        {
+          "fr": "Plomb",
+          "en": "Lead"
+        },
+        {
+          "fr": "Verre",
+          "en": "Glass"
+        },
+        {
+          "fr": "Cristal",
+          "en": "Crystal"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Métiers",
+        "en": "Jobs"
+      },
+      "color": "rgb(0, 51, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Médecin",
+          "en": "Doctor"
+        },
+        {
+          "fr": "Infirmier",
+          "en": "Nurse"
+        },
+        {
+          "fr": "Pompier",
+          "en": "Firefighter"
+        },
+        {
+          "fr": "Policier",
+          "en": "Police Officer"
+        },
+        {
+          "fr": "Professeur",
+          "en": "Teacher"
+        },
+        {
+          "fr": "Avocat",
+          "en": "Lawyer"
+        },
+        {
+          "fr": "Juge",
+          "en": "Judge"
+        },
+        {
+          "fr": "Ingénieur",
+          "en": "Engineer"
+        },
+        {
+          "fr": "Architecte",
+          "en": "Architect"
+        },
+        {
+          "fr": "Artiste",
+          "en": "Artist"
+        },
+        {
+          "fr": "Musicien",
+          "en": "Musician"
+        },
+        {
+          "fr": "Acteur",
+          "en": "Actor"
+        },
+        {
+          "fr": "Chanteur",
+          "en": "Singer"
+        },
+        {
+          "fr": "Danseur",
+          "en": "Dancer"
+        },
+        {
+          "fr": "Écrivain",
+          "en": "Writer"
+        },
+        {
+          "fr": "Journaliste",
+          "en": "Journalist"
+        },
+        {
+          "fr": "Photographe",
+          "en": "Photographer"
+        },
+        {
+          "fr": "Cuisinier",
+          "en": "Cook"
+        },
+        {
+          "fr": "Serveur",
+          "en": "Waiter"
+        },
+        {
+          "fr": "Boulanger",
+          "en": "Baker"
+        },
+        {
+          "fr": "Pâtissier",
+          "en": "Pastry Chef"
+        },
+        {
+          "fr": "Boucher",
+          "en": "Butcher"
+        },
+        {
+          "fr": "Charcutier",
+          "en": "Pork Butcher"
+        },
+        {
+          "fr": "Fromager",
+          "en": "Cheesemonger"
+        }
+      ]
+    }
+  ]
+}
