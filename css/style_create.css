@@ -1,4 +1,12 @@
 /* Style pour le header */
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #4CAF50;
     padding: 10px;
@@ -7,8 +15,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
-
 /* Style pour le modal */
 .modal {
     display: none;
@@ -16,9 +24,8 @@ header {
     z-index: 3;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
@@ -27,6 +34,8 @@ header {
     position: relative;
     background-color: #fefefe;
     margin: 15% auto;
+
+    display: grid;
 
     padding: 40px 10px 10px;
     border: 1px solid #888;
@@ -56,19 +65,18 @@ header {
 
 .container {
     width: 1142px;
-    margin: 0 auto;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 25px;
+    margin: auto;
 }
 
 .box {
-    padding: 50px 0;
+
 }
 
 .item {
-    -ms-flex-preferred-size: calc(33.33333% - 30px);
-    flex-basis: calc(33.33333% - 30px);
+
     /*margin: 0 15px 30px;*/
     overflow: hidden;
     border-radius: 28px;

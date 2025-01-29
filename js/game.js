@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Si la room n'existe pas, vous pourriez vouloir créer une structure de base pour currentRoom
     currentRoom = {
       id: roomId,
-      themes: 20,
+      themes: 30,
     };
     rooms[roomId] = currentRoom; // Ajouter la nouvelle room ou mettre à jour les données
   }
@@ -60,8 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const uniqueWords = new Set();
         selectedThemes.forEach((theme) => {
           let wordAdded = false;
-          while (!wordAdded && uniqueWords.size < 50) {
-            // Limite à 50 mots pour éviter des boucles infinies
+          while (!wordAdded && uniqueWords.size < currentRoom.themes) {
             const randomIndex = Math.floor(Math.random() * theme.words.length);
             const randomWord = theme.words[randomIndex].fr; // Select a random word in French
             if (!uniqueWords.has(randomWord)) {

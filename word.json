@@ -1438,6 +1438,298 @@
           "en": "Cheesemonger"
         }
       ]
+    },
+    {
+      "theme": {
+        "fr": "Titre de musique",
+        "en": "Music Title"
+      },
+      "color": "rgb(0, 0, 51, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Bohemian Rhapsody",
+          "en": "Bohemian Rhapsody"
+        },
+        {
+          "fr": "Stairway to Heaven",
+          "en": "Stairway to Heaven"
+        },
+        {
+          "fr": "Hotel California",
+          "en": "Hotel California"
+        },
+        {
+          "fr": "Imagine",
+          "en": "Imagine"
+        },
+        {
+          "fr": "Smells Like Teen Spirit",
+          "en": "Smells Like Teen Spirit"
+        },
+        {
+          "fr": "Billie Jean",
+          "en": "Billie Jean"
+        },
+        {
+          "fr": "Like a Rolling Stone",
+          "en": "Like a Rolling Stone"
+        },
+        {
+          "fr": "Hey Jude",
+          "en": "Hey Jude"
+        },
+        {
+          "fr": "Purple Haze",
+          "en": "Purple Haze"
+        },
+        {
+          "fr": "Sweet Child o' Mine",
+          "en": "Sweet Child o' Mine"
+        },
+        {
+          "fr": "Every Breath You Take",
+          "en": "Every Breath You Take"
+        },
+        {
+          "fr": "I Will Always Love You",
+          "en": "I Will Always Love You"
+        },
+        {
+          "fr": "Thriller",
+          "en": "Thriller"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Concept",
+        "en": "Concept"
+      },
+      "color": "rgb(0, 51, 51, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Amour",
+          "en": "Love"
+        },
+        {
+          "fr": "Haine",
+          "en": "Hate"
+        },
+        {
+          "fr": "Joie",
+          "en": "Joy"
+        },
+        {
+          "fr": "Tristesse",
+          "en": "Sadness"
+        },
+        {
+          "fr": "Colère",
+          "en": "Anger"
+        },
+        {
+          "fr": "Peur",
+          "en": "Fear"
+        },
+        {
+          "fr": "Bonheur",
+          "en": "Happiness"
+        },
+        {
+          "fr": "Désespoir",
+          "en": "Despair"
+        },
+        {
+          "fr": "Espoir",
+          "en": "Hope"
+        },
+        {
+          "fr": "Rêve",
+          "en": "Dream"
+        },
+        {
+          "fr": "Cauchemar",
+          "en": "Nightmare"
+        },
+        {
+          "fr": "Liberté",
+          "en": "Freedom"
+        },
+        {
+          "fr": "Paix",
+          "en": "Peace"
+        },
+        {
+          "fr": "Guerre",
+          "en": "War"
+        },
+        {
+          "fr": "Vie",
+          "en": "Life"
+        },
+        {
+          "fr": "Mort",
+          "en": "Death"
+        },
+        {
+          "fr": "Naissance",
+          "en": "Birth"
+        },
+        {
+          "fr": "Destin",
+          "en": "Destiny"
+        },
+        {
+          "fr": "Chance",
+          "en": "Luck"
+        },
+        {
+          "fr": "Malchance",
+          "en": "Bad Luck"
+        },
+        {
+          "fr": "Richesse",
+          "en": "Wealth"
+        },
+        {
+          "fr": "Pauvreté",
+          "en": "Poverty"
+        },
+        {
+          "fr": "Santé",
+          "en": "Health"
+        },
+        {
+          "fr": "Maladie",
+          "en": "Disease"
+        },
+        {
+          "fr": "Force",
+          "en": "Strength"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr": "Nourriture",
+        "en": "Food"
+      },
+      "color": "rgb(51, 51, 0, 0.4)",
+      "language": [
+        "fr",
+        "en"
+      ],
+      "words": [
+        {
+          "fr": "Pomme",
+          "en": "Apple"
+        },
+        {
+          "fr": "Banane",
+          "en": "Banana"
+        },
+        {
+          "fr": "Orange",
+          "en": "Orange"
+        },
+        {
+          "fr": "Poire",
+          "en": "Pear"
+        },
+        {
+          "fr": "Fraise",
+          "en": "Strawberry"
+        },
+        {
+          "fr": "Framboise",
+          "en": "Raspberry"
+        },
+        {
+          "fr": "Cerise",
+          "en": "Cherry"
+        },
+        {
+          "fr": "Pêche",
+          "en": "Peach"
+        },
+        {
+          "fr": "Abricot",
+          "en": "Apricot"
+        },
+        {
+          "fr": "Prune",
+          "en": "Plum"
+        },
+        {
+          "fr": "Ananas",
+          "en": "Pineapple"
+        },
+        {
+          "fr": "Kiwi",
+          "en": "Kiwi"
+        },
+        {
+          "fr": "Pastèque",
+          "en": "Watermelon"
+        },
+        {
+          "fr": "Melon",
+          "en": "Melon"
+        },
+        {
+          "fr": "Raisin",
+          "en": "Grape"
+        }
+      ]
+    },
+    {
+      "theme": {
+        "fr" : "Dates connues",
+        "en" : "Famous Dates"
+      },
+        "color": "rgb(51, 0, 51, 0.4)",
+        "language": [
+          "fr",
+          "en"
+        ],
+        "words": [
+          {
+            "fr": "1789",
+            "en": "1789"
+          },
+          {
+            "fr": "1914",
+            "en": "1914"
+          },
+          {
+            "fr": "1945",
+            "en": "1945"
+          },
+          {
+            "fr": "1969",
+            "en": "1969"
+          },
+          {
+            "fr": "2001",
+            "en": "2001"
+          },
+          {
+            "fr": "2011",
+            "en": "2011"
+          },
+          {
+            "fr": "2020",
+            "en": "2020"
+          }
+        ]
     }
   ]
 }
