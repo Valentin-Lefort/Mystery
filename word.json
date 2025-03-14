@@ -1692,8 +1692,8 @@
     },
     {
       "theme": {
-        "fr" : "Dates connues",
-        "en" : "Famous Dates"
+        "fr" : "Marques",
+        "en" : "Brands"
       },
         "color": "rgb(51, 0, 51, 0.4)",
         "language": [
@@ -1701,34 +1701,110 @@
           "en"
         ],
         "words": [
-          {
-            "fr": "1789",
-            "en": "1789"
-          },
-          {
-            "fr": "1914",
-            "en": "1914"
-          },
-          {
-            "fr": "1945",
-            "en": "1945"
-          },
-          {
-            "fr": "1969",
-            "en": "1969"
-          },
-          {
-            "fr": "2001",
-            "en": "2001"
-          },
-          {
-            "fr": "2011",
-            "en": "2011"
-          },
-          {
-            "fr": "2020",
-            "en": "2020"
-          }
+            {
+                "fr": "Apple",
+                "en": "Apple"
+            },
+            {
+                "fr": "Samsung",
+                "en": "Samsung"
+            },
+            {
+                "fr": "Huawei",
+                "en": "Huawei"
+            },
+            {
+                "fr": "Sony",
+                "en": "Sony"
+            },
+            {
+                "fr": "LG",
+                "en": "LG"
+            },
+            {
+                "fr": "HTC",
+                "en": "HTC"
+            },
+            {
+                "fr": "Nokia",
+                "en": "Nokia"
+            },
+            {
+                "fr": "Motorola",
+                "en": "Motorola"
+            },
+            {
+                "fr": "Lenovo",
+                "en": "Lenovo"
+            },
+            {
+                "fr": "Acer",
+                "en": "Acer"
+            },
+            {
+                "fr": "Asus",
+                "en": "Asus"
+            },
+            {
+                "fr": "Dell",
+                "en": "Dell"
+            },
+            {
+                "fr": "HP",
+                "en": "HP"
+            },
+            {
+                "fr": "Canon",
+                "en": "Canon"
+            },
+            {
+                "fr": "Nikon",
+                "en": "Nikon"
+            },
+            {
+                "fr": "Sony",
+                "en": "Sony"
+            },
+            {
+                "fr": "Panasonic",
+                "en": "Panasonic"
+            },
+            {
+                "fr": "Philips",
+                "en": "Philips"
+            },
+            {
+                "fr": "Bosch",
+                "en": "Bosch"
+            },
+            {
+                "fr": "Siemens",
+                "en": "Siemens"
+            },
+            {
+                "fr": "Whirlpool",
+                "en": "Whirlpool"
+            },
+            {
+                "fr": "Beko",
+                "en": "Beko"
+            },
+            {
+                "fr": "LG",
+                "en": "LG"
+            },
+            {
+                "fr": "Samsung",
+                "en": "Samsung"
+            },
+            {
+                "fr": "Sony",
+                "en": "Sony"
+            },
+            {
+                "fr": "Philips",
+                "en": "Philips"
+            }
         ]
     }
   ]

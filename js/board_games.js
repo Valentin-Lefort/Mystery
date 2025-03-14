@@ -36,6 +36,18 @@ document.addEventListener("DOMContentLoaded", function () {
         itemDiv1.appendChild(itemDiv2);
         boxDiv.appendChild(itemDiv1);
         cardContainer.appendChild(boxDiv);
+
+        // Add event listener for each theme card to make it clickable and toggle the color of the item_bg
+        let isToggled = false;
+
+        link.addEventListener("click", () => {
+          if (isToggled) {
+            link.style.backgroundColor = "";
+          } else {
+            link.style.backgroundColor = theme.color;
+          }
+          isToggled = !isToggled;
+        });
       });
     });
 });

@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    padding: 10px;
+    background-color: #504e4e;
+    /*padding: 10px;*/
     color: white;
     text-align: center;
     position: sticky;
@@ -64,11 +64,11 @@ header {
 }
 
 .container {
-    width: 1142px;
+    width: 870px;
     display: inline-grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 25px;
-    margin: auto;
+    align-self: center;
 }
 
 .box {

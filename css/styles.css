@@ -51,3 +51,15 @@ button:hover {
     margin-top: 20px;
     color: #ff0000;
 }
+
+.wordItem {
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.wordItem:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.wordItem.clicked {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}

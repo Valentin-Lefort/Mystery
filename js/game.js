@@ -1,19 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let rooms;
   const urlParams = new URLSearchParams(window.location.search);
   const roomId = urlParams.get("roomId");
   const username = urlParams.get("username");
   let currentRoom = null;
 
-  // Supposons que `rooms` soit accessible d'une manière ou d'une autre
-  if (roomId && typeof rooms === "object" && rooms.hasOwnProperty(roomId)) {
+  // Get the latest rooms data from localStorage
+  rooms = JSON.parse(localStorage.getItem("rooms")) || {};
+
+  if (roomId && rooms.hasOwnProperty(roomId)) {
     currentRoom = rooms[roomId];
   } else {
-    // Si la room n'existe pas, vous pourriez vouloir créer une structure de base pour currentRoom
     currentRoom = {
       id: roomId,
       themes: 30,
+      players: [],
     };
-    rooms[roomId] = currentRoom; // Ajouter la nouvelle room ou mettre à jour les données
+    rooms[roomId] = currentRoom;
+  }
+
+  if (!currentRoom.players.includes(username)) {
+    currentRoom.players.push(username);
+    // Update localStorage immediately when players change
+    localStorage.setItem("rooms", JSON.stringify(rooms));
   }
 
   // Initialisation de la partie avec roomId et username
@@ -22,8 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
     roomId,
     "Username:",
     username,
-    "themes:",
+    "Themes:",
     currentRoom.themes,
+    "Players:",
+    currentRoom.players,
   );
 
   // Code pour le modal des mots
@@ -85,6 +96,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function closeWordModal() {
     wordModal.style.display = "none";
   }
+
+  // TODO 1: Ajouter le nom du joueur auquel c'est le tour de jouer
+  // TODO 3; Faire en sorte que les cartes une fois cliquer la couleur reste fixe
+  // TODO 4: au tour du joueur un input apparait pour proposer un mot -> une fois le mots envoyer l'input disparait et le mots ecris est envoyer dans un tableau
 });
 
 // Si rooms n'est pas défini globalement, vous pouvez essayer de le récupérer depuis localStorage:
