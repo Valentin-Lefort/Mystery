@@ -98,7 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // TODO 1: Ajouter le nom du joueur auquel c'est le tour de jouer
-  // TODO 3; Faire en sorte que les cartes une fois cliquer la couleur reste fixe
   // TODO 4: au tour du joueur un input apparait pour proposer un mot -> une fois le mots envoyer l'input disparait et le mots ecris est envoyer dans un tableau
 });
 
