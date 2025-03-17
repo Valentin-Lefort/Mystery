@@ -3,10 +3,52 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       const themes = data.words;
-      let currentRoom = null;
       const gameBoard = document.getElementById("gameBoard");
       const cardContainer = document.getElementById("cardContainer");
-      // loops create card for each theme in word.json with background color and theme name in gameBoard
+
+      // Function to get the room ID from the URL parameters
+      function getRoomIdFromUrl() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get("roomId");
+      }
+
+      // Get the room ID from the URL
+      const currentRoomId = getRoomIdFromUrl();
+
+      // If there is no room ID in the URL, stop the script
+      if (!currentRoomId) {
+        console.error("No roomId found in the URL");
+        return;
+      }
+
+      // Create invite link and copy button
+      const inviteLink = `${window.location.origin}/mystery/game.html?roomId=${currentRoomId}`;
+      const inviteLinkContainer = document.createElement("div");
+      inviteLinkContainer.className = "invite-link-container";
+
+      const inviteLinkDisplay = document.createElement("input");
+      inviteLinkDisplay.type = "text";
+      inviteLinkDisplay.value = inviteLink;
+      inviteLinkDisplay.readOnly = true;
+      inviteLinkDisplay.className = "invite-link-display";
+
+      const copyButton = document.createElement("button");
+      copyButton.textContent = "Copy Invite Link";
+      copyButton.className = "copy-button";
+      copyButton.addEventListener("click", () => {
+        navigator.clipboard
+          .writeText(inviteLink)
+          .then(() => {
+            alert("Invite link copied to clipboard!");
+          })
+          .catch((err) => {
+            console.error("Failed to copy invite link: ", err);
+          });
+      });
+
+      inviteLinkContainer.appendChild(inviteLinkDisplay);
+      inviteLinkContainer.appendChild(copyButton);
+      cardContainer.parentNode.insertBefore(inviteLinkContainer, cardContainer);
 
       themes.forEach((theme) => {
         const boxDiv = document.createElement("div");

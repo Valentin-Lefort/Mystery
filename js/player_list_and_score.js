@@ -67,6 +67,15 @@ function addPlayerToRoom(roomId, username) {
 
 // Mettre à jour la liste des joueurs au chargement de la page
 document.addEventListener("DOMContentLoaded", function () {
+  // Récupérer le nom d'utilisateur depuis les paramètres de l'URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const username = urlParams.get("username");
+  const currentRoomId = urlParams.get("roomId");
+
+  // Ajouter un joueur à la salle si l'ID de la salle et le nom d'utilisateur sont présents dans l'URL
+  if (currentRoomId && username) {
+    addPlayerToRoom(currentRoomId, username);
+  }
   updatePlayerListAndScore();
 });
 
@@ -106,12 +115,3 @@ window.addEventListener("beforeunload", function () {
     }
   }
 });
-
-// Ajouter un joueur à la salle si l'ID de la salle et le nom d'utilisateur sont présents dans l'URL
-const urlParams = new URLSearchParams(window.location.search);
-const currentRoomId = urlParams.get("roomId");
-const username = urlParams.get("username");
-
-if (currentRoomId && username) {
-  addPlayerToRoom(currentRoomId, username);
-}
