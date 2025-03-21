@@ -38,9 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
       copyButton.addEventListener("click", () => {
         navigator.clipboard
           .writeText(inviteLink)
-          .then(() => {
-            alert("Invite link copied to clipboard!");
-          })
+          .then(() => {})
           .catch((err) => {
             console.error("Failed to copy invite link: ", err);
           });

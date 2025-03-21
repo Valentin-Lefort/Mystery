@@ -1,8 +1,8 @@
 // Function to get URL parameters
 function getUrlParameter(name) {
   name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
-  var results = regex.exec(location.search);
+  let regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+  let results = regex.exec(location.search);
   return results === null
     ? ""
     : decodeURIComponent(results[1].replace(/\+/g, " "));
@@ -16,13 +16,17 @@ if (!username) {
   username = prompt("Please enter your username:");
 
   // If the user entered a username, redirect to the same page with the username
-  if (username) {
+  if (username !== null && username.trim() !== "") {
     const roomId = getUrlParameter("roomId");
-    window.location.href = `game.html?roomId=${roomId}&username=${encodeURIComponent(
-      username,
-    )}`;
+    if (roomId) {
+      window.location.href = `game.html?roomId=${roomId}&username=${encodeURIComponent(
+        username,
+      )}`;
+    } else {
+      alert("Room ID is missing in the URL.");
+    }
   } else {
-    // Handle the case where the user cancels the prompt
+    // Handle the case where the user cancels the prompt or enters an empty username
     alert("Username is required to join the game.");
     // You might want to redirect the user to a different page or take other actions here
   }
